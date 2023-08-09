@@ -16,3 +16,11 @@ data_segment = pd.read_csv('data/segment.data',encoding='utf-8', header=None, se
 data_sat = pd.read_csv('data/sat.trn',encoding='utf-8', header=None, sep=' ')
 print(data_sat.head)
 data_sat.describe()
+
+data_iris.hist()
+
+data_segment.hist()
+data_segment.hist([0,1,2,3])
+
+data_sat.hist()
+data_sat.hist([0,1,2,3])
